@@ -1,5 +1,18 @@
 $(document).ready(function() {
-    new DataTable('#example');
+    new DataTable('#example',{
+        ajax: "./assets/data/resources.json",
+        columns: [
+            { data: "dataset_name" },
+            { data: "first_author" },
+            { data: "sponsor" },
+            { data: "published_year" },
+            { data: "content_codes" },
+            { data: "num_patients" },
+            { data: "num_images" },
+            { data: "dataset_size" },
+            { data: "dataset_link" },
+        ],
+    })
 })
 
 function handleSVG(){
