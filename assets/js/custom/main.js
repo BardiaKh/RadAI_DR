@@ -1,19 +1,45 @@
 $(document).ready(function() {
-    new DataTable('#example',{
+    new DataTable('#example', {
         ajax: "./assets/data/resources.json",
+        dataSrc: "data",
         columns: [
-            { data: "dataset_name" },
-            { data: "first_author" },
+            {
+                data: "dataset_name",
+                render: function(data, type, row) {
+                    return `${data}<br>${row.first_author} et al. <a href="${row.paper_link}" target="_blank">(link)</a>`;
+                }
+            },
             { data: "sponsor" },
             { data: "published_year" },
-            { data: "content_codes" },
+            {
+                data: "content_codes",
+                searchPanes: {
+                    options: [
+                        { label: 'AI', value: 'AI' },
+                        { label: 'RS', value: 'RS' },
+                        { label: 'CH', value: 'CH' },
+                        { label: 'CT', value: 'CT' }
+                    ]
+                }
+            },
             { data: "num_patients" },
             { data: "num_images" },
             { data: "dataset_size" },
-            { data: "dataset_link" },
+            {
+                data: "dataset_link",
+                render: function(data, type, row) {
+                    return `<a href="${data}" target="_blank">Dataset Link</a>`;
+                }
+            },
         ],
-    })
-})
+        searchPanes: {
+            columns: [4] // content_codes index
+        },
+        select: true,
+        dom: 'Pfrtip' // Add 'P' for the searchPane
+    });
+});
+
 
 function handleSVG(){
     jQuery('img.svg').each(function(){
