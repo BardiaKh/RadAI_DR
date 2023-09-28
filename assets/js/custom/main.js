@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    new DataTable('#example', {
+    new DataTable('#resources', {
         ajax: "./assets/data/resources.json",
         dataSrc: "data",
         columns: [
