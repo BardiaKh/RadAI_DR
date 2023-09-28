@@ -37,7 +37,7 @@ $(document).ready(function() {
             columns: [3] // content_codes index
         },
         select: true,
-        dom: 'Pfrtip' // Add 'P' for the searchPane
+        dom: 'Pfrtip'
     });
 });
 
