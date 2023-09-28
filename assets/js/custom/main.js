@@ -6,7 +6,7 @@ $(document).ready(function() {
             {
                 data: "dataset_name",
                 render: function(data, type, row) {
-                    return `${data}<br>${row.first_author} et al. <a href="${row.paper_link}" target="_blank">(link)</a>`;
+                    return `${data}<br><a href="${row.paper_link}" target="_blank">${row.first_author} et al.</a>`;
                 }
             },
             { data: "sponsor" },
@@ -32,8 +32,9 @@ $(document).ready(function() {
                 }
             },
         ],
+        order: [[2, 'desc']], 
         searchPanes: {
-            columns: [4] // content_codes index
+            columns: [3] // content_codes index
         },
         select: true,
         dom: 'Pfrtip' // Add 'P' for the searchPane
