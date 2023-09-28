@@ -33,11 +33,11 @@ $(document).ready(function() {
             },
         ],
         order: [[2, 'desc']], 
-        searchPanes: {
-            columns: [3] // content_codes index
-        },
         select: false,
-        dom: 'Pfrtip'
+        dom: 'Qlfrtip',
+        searchBuilder: {
+            columns: [0,3]
+        }
     });
 });
 
