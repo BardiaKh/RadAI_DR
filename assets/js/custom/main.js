@@ -4,13 +4,19 @@ $(document).ready(function() {
         dataSrc: "data",
         columns: [
             {
-                data: "dataset_name",
+                data: "resource_title",
                 render: function(data, type, row) {
                     return `${data}<br><a href="${row.paper_link}" target="_blank">${row.first_author} et al.</a>`;
                 }
             },
-            { data: "sponsor" },
+            {
+                data: "dataset_link",
+                render: function(data, type, row) {
+                    return `<a href="${data}" target="_blank">${row.resource_type}</a>`;
+                }
+            },
             { data: "published_year" },
+            { data: "sponsor" },
             {
                 data: "content_codes",
                 searchPanes: {
@@ -25,12 +31,6 @@ $(document).ready(function() {
             { data: "num_patients" },
             { data: "num_images" },
             { data: "dataset_size" },
-            {
-                data: "dataset_link",
-                render: function(data, type, row) {
-                    return `<a href="${data}" target="_blank">Dataset Link</a>`;
-                }
-            },
         ],
         order: [[2, 'desc']], 
         select: false,

@@ -8,6 +8,9 @@
 .dtsb-searchBuilder .dtsb-search{
     display: none !important;
 }
+.dtsb-searchBuilder .dtsb-title{
+    display: none !important;
+}
 .container {
     padding-top: 12px;
     padding-bottom: 12px;
