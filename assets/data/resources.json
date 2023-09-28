@@ -1,0 +1,26 @@
+[
+    {
+        "dataset_name": "RadAI",
+        "first_author": "Kahn",
+        "sponsor": "RSNA",
+        "published_year": 2019,
+        "content_codes": ["AI","RS"],
+        "num_images": 100,
+        "num_patients": 10,
+        "paper_link": "https://doi.org/10.1148/radiol.2019191293",
+        "dataset_link": "https://www.kaggle.com/kmader/radiology-ai-chest-xrays",
+        "dataset_size": "1.2 GB"
+    },
+    {
+        "dataset_name": "RadAI2",
+        "first_author": "Gichoya",
+        "sponsor": "Emory",
+        "published_year": 2022,
+        "content_codes": ["AI","CH","CT"],
+        "num_images": 10,
+        "num_patients": 10,
+        "paper_link": "https://doi.org/10.1148/radiol.2019191293",
+        "dataset_link": "https://www.kaggle.com/kmader/radiology-ai-chest-xrays",
+        "dataset_size": "1.8 TB"
+    }
+]
