@@ -37,7 +37,7 @@
             "num_patients": "",
             "paper_link": "https://pubs.rsna.org/doi/10.1148/ryai.2020190211",
             "dataset_link": "https://www.rsna.org/education/ai-resources-and-training/ai-image-challenge/rsna-intracranial-hemorrhage-detection-challenge-2019",
-            "dataset_size": "458.97 GB"
+            "dataset_size": "459 GB"
         },
         {
             "resource_title": "RadAI5",
