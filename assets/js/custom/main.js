@@ -28,8 +28,20 @@ $(document).ready(function() {
                     ]
                 }
             },
-            { data: "num_patients", type: "formatted-num" },
-            { data: "num_images", type: "formatted-num" },
+            { 
+                data: "num_patients",
+                type: "formatted-num",
+                render: function(data, type, row) {
+                    return data.toLocaleString();
+                }
+            },
+            { 
+                data: "num_images",
+                type: "formatted-num",
+                render: function(data, type, row) {
+                    return data.toLocaleString();  // Add thousands separator
+                }
+            },
             { data: "dataset_size", type: "file-size" },
         ],
         order: [[2, 'desc']], 
