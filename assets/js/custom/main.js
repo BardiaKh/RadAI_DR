@@ -28,9 +28,9 @@ $(document).ready(function() {
                     ]
                 }
             },
-            { data: "num_patients" },
-            { data: "num_images" },
-            { data: "dataset_size" },
+            { data: "num_patients", type: "formatted-num" },
+            { data: "num_images", type: "formatted-num" },
+            { data: "dataset_size", type: "file-size" },
         ],
         order: [[2, 'desc']], 
         select: false,
