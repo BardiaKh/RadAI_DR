@@ -18,3 +18,11 @@
 #resources tbody tr td {
     vertical-align: middle;
 }
+.content-code {
+    display: inline-block;
+    padding: 2px 8px;
+    margin: 2px;
+    border: 1px solid #a68a7c;
+    border-radius: 4px;
+    cursor: help;
+}
