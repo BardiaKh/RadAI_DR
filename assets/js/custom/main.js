@@ -20,13 +20,8 @@ $(document).ready(function() {
             { data: "sponsor" },
             {
                 data: "content_codes",
-                searchPanes: {
-                    options: [
-                        { label: 'AI', value: 'AI' },
-                        { label: 'RS', value: 'RS' },
-                        { label: 'CH', value: 'CH' },
-                        { label: 'CT', value: 'CT' }
-                    ]
+                render: function(data, type, row) {
+                    return data.join(", ");
                 }
             },
             { 
