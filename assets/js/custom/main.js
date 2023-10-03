@@ -179,7 +179,13 @@ $(document).ready(function() {
         select: false,
         dom: 'Qlfrtip',
         searchBuilder: {
-            columns: [0,4]
+            columns: [0,4],
+            conditions: {
+                4: {
+                    "contains": "Contains",
+                    "notContains": "Does Not Contain",
+                }
+            },
         }
     });
 });
