@@ -2,6 +2,7 @@ $(document).ready(function() {
     new DataTable('#resources', {
         ajax: "./assets/data/resources.json",
         dataSrc: "data",
+        responsive: true,
         columns: [
             {
                 data: "resource_title",
