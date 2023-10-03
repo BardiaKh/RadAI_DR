@@ -50,7 +50,7 @@
             "num_patients": 12195,
             "paper_link": "https://pubs.rsna.org/doi/10.1148/ryai.2021200254",
             "dataset_link": "https://www.rsna.org/education/ai-resources-and-training/ai-image-challenge/rsna-pe-detection-challenge-2020",
-            "dataset_size": ""
+            "dataset_size": 0
         },
         {
             "resource_title": "RadImageNet",
@@ -76,7 +76,7 @@
             "num_patients": 172282,
             "paper_link": "https://doi.org/10.1148/ryai.2020200103",
             "dataset_link": "https://www.cancerresearchhorizons.com/licensing-opportunities/optimam-mammography-image-database-omi-db",
-            "dataset_size": ""
+            "dataset_size": 0
         },
         {
             "resource_title": "Diffuse Glioma Preop MRI",

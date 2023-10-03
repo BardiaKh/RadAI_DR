@@ -47,7 +47,11 @@ $(document).ready(function() {
                 data: "dataset_size", 
                 type: "file-size", 
                 render: function(data, type, row) {
-                    return data.toLocaleString() + " GB";
+                    if (data == 0) {
+                        return "";
+                    } else {
+                        return data.toLocaleString() + " GB";
+                    }
                 }
             },
         ],
