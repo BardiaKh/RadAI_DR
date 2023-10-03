@@ -39,16 +39,22 @@ $(document).ready(function() {
                 data: "num_images",
                 type: "formatted-num",
                 render: function(data, type, row) {
-                    return data.toLocaleString();  // Add thousands separator
+                    return data.toLocaleString();
                 }
             },
-            { data: "dataset_size", type: "file-size" },
+            { 
+                data: "dataset_size", 
+                type: "file-size", 
+                render: function(data, type, row) {
+                    return data.toLocaleString() + " GB";
+                }
+            },
         ],
         order: [[2, 'desc']], 
         select: false,
         dom: 'Qlfrtip',
         searchBuilder: {
-            columns: [0,3]
+            columns: [0,4]
         }
     });
 });
