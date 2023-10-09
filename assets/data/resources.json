@@ -9,9 +9,35 @@
             "content_codes": ["CH","XR"],
             "num_images": 30000,
             "num_patients": 12274,
-            "paper_link": "https://pubs.rsna.org/doi/10.1148/ryai.2019180041",
+            "paper_link": "https://doi.org/10.1148/ryai.2019180041",
             "dataset_link": "https://www.kaggle.com/kmader/radiology-ai-chest-xrays",
             "dataset_size": 1
+        },
+        {
+            "resource_title": "Scottish Medical Imaging Archive",
+            "resource_type": "Dataset",
+            "first_author": "Baxter",
+            "published_year": "2023-09-27",
+            "sponsor": "Scotland",
+            "content_codes": [],
+            "num_images": 57300000,
+            "num_patients": 0,
+            "paper_link": "https://doi.org/10.1148/ryai.220266",
+            "dataset_link": "",
+            "dataset_size": 0
+        },
+        {
+            "resource_title": "Cervical Spine Fracture CT",
+            "resource_type": "Dataset",
+            "first_author": "Lin",
+            "published_year": "2023-08-23",
+            "sponsor": "RSNA",
+            "content_codes": ["CT","MK","NR"],
+            "num_images": 0,
+            "num_patients": 0,
+            "paper_link": "https://doi.org/10.1148/ryai.230034",
+            "dataset_link": "",
+            "dataset_size": 0
         },
         {
             "resource_title": "fastMRI",
@@ -35,7 +61,7 @@
             "content_codes": ["NR","CT"],
             "num_images": 874035,
             "num_patients": "",
-            "paper_link": "https://pubs.rsna.org/doi/10.1148/ryai.2020190211",
+            "paper_link": "https://doi.org/10.1148/ryai.2020190211",
             "dataset_link": "https://www.rsna.org/education/ai-resources-and-training/ai-image-challenge/rsna-intracranial-hemorrhage-detection-challenge-2019",
             "dataset_size": 459
         },
@@ -48,7 +74,7 @@
             "content_codes": ["CH","CT"],
             "num_images": 2995147,
             "num_patients": 12195,
-            "paper_link": "https://pubs.rsna.org/doi/10.1148/ryai.2021200254",
+            "paper_link": "https://doi.org/10.1148/ryai.2021200254",
             "dataset_link": "https://www.rsna.org/education/ai-resources-and-training/ai-image-challenge/rsna-pe-detection-challenge-2020",
             "dataset_size": 0
         },
@@ -61,7 +87,7 @@
             "content_codes": ["CT","MR","US"],
             "num_images": 1354913,
             "num_patients": 131872,
-            "paper_link": "https://pubs.rsna.org/doi/10.1148/ryai.210315",
+            "paper_link": "https://doi.org/10.1148/ryai.210315",
             "dataset_link": "https://www.radimagenet.com/",
             "dataset_size": 250
         },
