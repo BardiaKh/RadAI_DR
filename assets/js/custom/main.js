@@ -17,7 +17,20 @@ $(document).ready(function() {
                 }
             },
             { data: "published_year" },
-            { data: "sponsor" },
+            { 
+                data: "sponsor",
+                render: function(data, type, row) {
+                    let content = "";
+                    if (data.length > 1) {
+                        const lastItem = data.pop();
+                        content = `${data.join(", ")} & ${lastItem}`;
+                    } else {
+                        content = data[0] || '';
+                    }
+
+                    return content;
+                }
+            },
             {
                 data: "content_codes",
                 render: function(data, type, row) {
@@ -153,6 +166,9 @@ $(document).ready(function() {
                 data: "num_patients",
                 type: "formatted-num",
                 render: function(data, type, row) {
+                    if (data == 0) {
+                        return "";
+                    }
                     return data.toLocaleString();
                 }
             },
@@ -160,6 +176,9 @@ $(document).ready(function() {
                 data: "num_images",
                 type: "formatted-num",
                 render: function(data, type, row) {
+                    if (data == 0) {
+                        return "";
+                    }
                     return data.toLocaleString();
                 }
             },
@@ -169,9 +188,8 @@ $(document).ready(function() {
                 render: function(data, type, row) {
                     if (data == 0) {
                         return "";
-                    } else {
-                        return data.toLocaleString() + " GB";
                     }
+                    return data.toLocaleString() + " GB";
                 }
             },
         ],
