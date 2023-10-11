@@ -17,7 +17,7 @@ $(document).ready(function() {
                 }
             },
             { data: "published_year" },
-            { 
+            {
                 data: "sponsor",
                 render: function(data, type, row) {
                     let content = "";
@@ -172,7 +172,7 @@ $(document).ready(function() {
                     return data.toLocaleString();
                 }
             },
-            { 
+            {
                 data: "num_images",
                 type: "formatted-num",
                 render: function(data, type, row) {
