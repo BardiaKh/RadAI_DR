@@ -182,14 +182,14 @@ $(document).ready(function() {
                     return data.toLocaleString();
                 }
             },
-            { 
+            {
                 data: "dataset_size", 
-                type: "file-size", 
+                type: "formatted-num", 
                 render: function(data, type, row) {
                     if (data == 0) {
                         return "";
                     }
-                    return data.toLocaleString() + " GB";
+                    return data.toLocaleString();
                 }
             },
         ],
@@ -197,10 +197,10 @@ $(document).ready(function() {
         select: false,
         dom: 'Qlfrtip',
         searchBuilder: {
-            columns: [0,4],
+            columns: [0,4,7],
             conditions: {
                 4: {
-                    "contains": "Contains",
+                    "contains": "Contain",
                     "notContains": "Does Not Contain",
                 }
             },
