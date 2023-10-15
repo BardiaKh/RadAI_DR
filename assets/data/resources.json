@@ -19,7 +19,7 @@
             "first_author": "Baxter",
             "published_year": "2023-09-27",
             "sponsor": ["Scotland NHS"],
-            "content_codes": [],
+            "content_codes": ["CT","MR","US","XR"],
             "num_images": 57300000,
             "num_patients": 0,
             "paper_link": "https://doi.org/10.1148/ryai.220266",
@@ -97,7 +97,7 @@
             "first_author": "Halling-Brown",
             "published_year": "2020-11",
             "sponsor": ["UK NHS"],
-            "content_codes": ["BR","MG","OI"],
+            "content_codes": ["BR","DM","MG","OI"],
             "num_images": 3072878,
             "num_patients": 172282,
             "paper_link": "https://doi.org/10.1148/ryai.2020200103",
@@ -118,7 +118,7 @@
             "dataset_size": 156
         },
 	{
-            "resource_title": "Duke Liver Dataset",
+            "resource_title": "Duke Liver MRI Dataset",
             "resource_type": "Dataset",
             "first_author": "Macdonald",
             "published_year": "2023-07",
@@ -183,12 +183,12 @@
             "dataset_size": 2.87
         },
       	{
-            "resource_title": "Vertebral Segmentation with Fracture Grading",
+            "resource_title": "CT Vertebral Segmentation with Fracture Grading",
             "resource_type": "Dataset",
             "first_author": "Loffler",
             "published_year": "2020-07",
             "sponsor": ["RSNA","STR"],
-            "content_codes": ["CT","NR"],
+            "content_codes": ["CT","MK","NR"],
             "num_images": 1725,
             "num_patients": 141,
             "paper_link": "https://doi.org/10.1148/ryai.2020190138",
