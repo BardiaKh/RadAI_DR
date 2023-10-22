@@ -29,3 +29,9 @@
     font-weight: bold;
     cursor: help;
 }
+#contentCodeDropdown {
+    margin-bottom: 40px;
+}
+.dataTables_length {
+    margin-top: 10px;
+}

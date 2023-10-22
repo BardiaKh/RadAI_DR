@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    new DataTable('#resources', {
+    const table = new DataTable('#resources', {
         ajax: "./assets/data/resources.json",
         dataSrc: "data",
         responsive: true,
@@ -195,15 +195,22 @@ $(document).ready(function() {
         ],
         order: [[2, 'desc']], 
         select: false,
-        dom: 'Qlfrtip',
-        searchBuilder: {
-            columns: [0,4,7],
-            conditions: {
-                4: {
-                    "contains": "Contain",
-                    "notContains": "Does Not Contain",
-                }
-            },
+        dom: 'frtilp',
+        // searchBuilder: {
+        //     columns: [0,4,7],
+        //     conditions: {
+        //         4: {
+        //             "contains": "Contain",
+        //             "notContains": "Does Not Contain",
+        //         }
+        //     },
+        // }
+    });
+    $('#contentCodeSelect').on('change', function() {
+        const selectedCode = $(this).val();
+        table.columns().search('').draw(); // Reset search on all columns
+        if (selectedCode) {
+            table.column(4).search(selectedCode).draw();
         }
     });
 });
