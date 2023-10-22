@@ -23,7 +23,7 @@
             "num_images": 57300000,
             "num_patients": 0,
             "paper_link": "https://doi.org/10.1148/ryai.220266",
-            "dataset_link": "",
+            "dataset_link": "#",
             "dataset_size": 0
         },
         {
@@ -36,7 +36,7 @@
             "num_images": 0,
             "num_patients": 0,
             "paper_link": "https://doi.org/10.1148/ryai.230034",
-            "dataset_link": "",
+            "dataset_link": "#",
             "dataset_size": 0
         },
         {
@@ -127,7 +127,7 @@
             "num_images": "",
             "num_patients": 105,
             "paper_link": "https://doi.org/10.1148/ryai.220275",
-            "dataset_link": "",
+            "dataset_link": "#",
             "dataset_size": 0
         },
 	{

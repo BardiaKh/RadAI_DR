@@ -32,6 +32,38 @@
 #contentCodeDropdown {
     margin-bottom: 40px;
 }
+#contentCodeDropdown .form-select {
+    display: inline-block;
+    width: auto;
+}
+
+/* RadAI Theme */
 .dataTables_length {
     margin-top: 10px;
+}
+a {
+    color: #a68a7c;
+}
+a:hover, a:focus {
+    color: #a68a7c;
+    text-decoration: underline; /* optional: if you want an underline on hover */
+}
+.dataTables_wrapper a {
+    color: #a68a7c;
+}
+.dataTables_wrapper a:hover, .dataTables_wrapper a:focus {
+    color: #a68a7c;
+    text-decoration: underline;
+}
+.pagination .active .page-link {
+    background-color: #8a7a6c; /* a slightly different shade for the active button */
+    border-color: #8a7a6c;
+}
+.pagination .page-link:hover {
+    background-color: #8a7a6c; /* a color for hover */
+    border-color: #8a7a6c;
+    color: #fff;
+}
+.form-select:focus {
+    border-color: #a68a7c;
 }
