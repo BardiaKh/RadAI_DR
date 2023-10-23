@@ -21,7 +21,7 @@
             "sponsor": ["Scotland NHS"],
             "content_codes": ["BR","CH","CT","GI","GU","MK","MR","NM","NR","US","XR"],
             "num_images": 57300000,
-            "num_patients": 0,
+            "num_patients": 4263163,
             "paper_link": "https://doi.org/10.1148/ryai.220266",
             "dataset_link": "https://www.isdscotland.org/Products-and-Services/eDRIS/Scottish-Medical-Imaging-Service/",
             "dataset_size": 0
@@ -34,7 +34,7 @@
             "sponsor": ["RSNA"],
             "content_codes": ["CT","MK","NR"],
             "num_images": 0,
-            "num_patients": 0,
+            "num_patients": 3112,
             "paper_link": "https://doi.org/10.1148/ryai.230034",
             "dataset_link": "#",
             "dataset_size": 0
