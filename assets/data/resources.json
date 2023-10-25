@@ -7,11 +7,11 @@
             "published_year": "2019-01",
             "sponsor": ["RSNA"],
             "content_codes": ["CH","XR"],
-            "num_images": 30000,
+            "num_images": 29687,
             "num_patients": 12274,
             "paper_link": "https://doi.org/10.1148/ryai.2019180041",
-            "dataset_link": "https://www.kaggle.com/kmader/radiology-ai-chest-xrays",
-            "dataset_size": 1
+            "dataset_link": "https://www.kaggle.com/competitions/rsna-pneumonia-detection-challenge/data",
+            "dataset_size": 4
         },
         {
             "resource_title": "Scottish Medical Imaging Archive",
