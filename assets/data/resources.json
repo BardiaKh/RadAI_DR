@@ -24,7 +24,7 @@
             "num_patients": 4263163,
             "paper_link": "https://doi.org/10.1148/ryai.220266",
             "dataset_link": "https://www.isdscotland.org/Products-and-Services/eDRIS/Scottish-Medical-Imaging-Service/",
-            "dataset_size": "#"
+            "dataset_size": null
         },
         {
             "resource_title": "Cervical Spine Fracture CT",
