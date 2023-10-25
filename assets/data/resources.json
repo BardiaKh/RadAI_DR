@@ -24,7 +24,7 @@
             "num_patients": 4263163,
             "paper_link": "https://doi.org/10.1148/ryai.220266",
             "dataset_link": "https://www.isdscotland.org/Products-and-Services/eDRIS/Scottish-Medical-Imaging-Service/",
-            "dataset_size": null
+            "dataset_size": ""
         },
         {
             "resource_title": "Cervical Spine Fracture CT",
@@ -37,7 +37,7 @@
             "num_patients": 3112,
             "paper_link": "https://doi.org/10.1148/ryai.230034",
             "dataset_link": "https://www.kaggle.com/competitions/rsna-2022-cervical-spine-fracture-detection/",
-            "dataset_size":343
+            "dataset_size": 343
         },
         {
             "resource_title": "fastMRI",
@@ -46,7 +46,7 @@
             "published_year": "2020-01",
             "sponsor": ["New York University"],
             "content_codes": ["MK","MR","PH"],
-            "num_images": "#",
+            "num_images": "",
             "num_patients": 9290,
             "paper_link": "https://doi.org/10.1148/ryai.2020190007",
             "dataset_link": "https://fastmri.med.nyu.edu/",
@@ -102,7 +102,7 @@
             "num_patients": 172282,
             "paper_link": "https://doi.org/10.1148/ryai.2020200103",
             "dataset_link": "https://www.cancerresearchhorizons.com/licensing-opportunities/optimam-mammography-image-database-omi-db",
-            "dataset_size": "#"
+            "dataset_size": ""
         },
         {
             "resource_title": "Diffuse Glioma Preop MRI",
@@ -124,11 +124,11 @@
             "published_year": "2023-07",
             "sponsor": ["Duke University"],
             "content_codes": ["GI","MR"],
-            "num_images": "#",
+            "num_images": "",
             "num_patients": 105,
             "paper_link": "https://doi.org/10.1148/ryai.220275",
             "dataset_link": "https://zenodo.org/records/7774566",
-            "dataset_size": "#"
+            "dataset_size": ""
         },
 	{
             "resource_title": "EmBED Breast Imaging Dataset",
@@ -167,7 +167,7 @@
             "num_patients": 19237,
             "paper_link": "https://doi.org/10.1148/ryai.2021210136",
             "dataset_link": "https://auckland.figshare.com/articles/dataset/CANDID-PTX/14173982",
-            "dataset_size": "#"
+            "dataset_size": ""
         },
       	{
             "resource_title": "Pulmonary Embolism CT with Bounding Box Annotations",
@@ -193,7 +193,7 @@
             "num_patients": 141,
             "paper_link": "https://doi.org/10.1148/ryai.2020190138",
             "dataset_link": "https://osf.io/nqjyw/",
-            "dataset_size": "#"
+            "dataset_size": ""
         }
     ]
 }
