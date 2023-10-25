@@ -29,9 +29,6 @@
     font-weight: bold;
     cursor: help;
 }
-#contentCodeDropdown {
-    margin-bottom: 40px;
-}
 #contentCodeDropdown .form-select {
     display: inline-block;
     width: auto;
