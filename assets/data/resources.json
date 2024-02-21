@@ -194,6 +194,32 @@
             "paper_link": "https://doi.org/10.1148/ryai.2020190138",
             "dataset_link": "https://osf.io/nqjyw/",
             "dataset_size": ""
+        },
+	{
+            "resource_title": "The University of California San Francisco, Brain Metastases Stereotactic Radiosurgery (UCSF-BMSR) MRI Dataset",
+            "resource_type": "Dataset",
+            "first_author": "Rudie",
+            "published_year": "2024-02",
+            "sponsor": ["UCSF"],
+            "content_codes": ["NR","MR"],
+            "num_images": "",
+            "num_patients": 412,
+            "paper_link": "https://doi.org/10.1148/ryai.230126",
+            "dataset_link": "https://imagingdatasets.ucsf.edu/dataset/1",
+            "dataset_size": ""
+        },
+	{
+            "resource_title": "Curated and Annotated Dataset of Lung US Images of Zambian Children with Clinical Pneumonia",
+            "resource_type": "Dataset",
+            "first_author": "Etter",
+            "published_year": "2024-02",
+            "sponsor": ["Boston Medical Center"],
+            "content_codes": ["US","CH"],
+            "num_images": "",
+            "num_patients": 200,
+            "paper_link": "https://doi.org/10.1148/ryai.230147",
+            "dataset_link": "",
+            "dataset_size": ""
         }
     ]
 }
