@@ -206,7 +206,7 @@
             "num_patients": 412,
             "paper_link": "https://doi.org/10.1148/ryai.230126",
             "dataset_link": "https://imagingdatasets.ucsf.edu/dataset/1",
-            "dataset_size": ""
+            "dataset_size": 18
         },
 	{
             "resource_title": "Curated and Annotated Dataset of Lung US Images of Zambian Children with Clinical Pneumonia",
