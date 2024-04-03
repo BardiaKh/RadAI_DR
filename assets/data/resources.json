@@ -218,7 +218,7 @@
             "num_images": "",
             "num_patients": 200,
             "paper_link": "https://doi.org/10.1148/ryai.230147",
-            "dataset_link": "mailto:laetter@bu.edu?subject=Dataset%20Access%20Request&body=Dear%20Dr.Etter,2%0A2%0AI%20am%20writing%20to%20request%20access%20to%20the%20'Pediatric%20Lung%20US%20Images'.2%0A2%0ASincerely,2%0A",
+            "dataset_link": "mailto:laetter@bu.edu?subject=Dataset%20Access%20Request&body=Dear%20Dr.%20Etter,%0A%0AI%20am%20writing%20to%20request%20access%20to%20the%20'Pediatric%20Lung%20US%20Images'.%0A%0ASincerely,%0A",
             "dataset_size": ""
         }
     ]
