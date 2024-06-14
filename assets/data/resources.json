@@ -220,6 +220,19 @@
             "paper_link": "https://doi.org/10.1148/ryai.230147",
             "dataset_link": "mailto:laetter@bu.edu?subject=Dataset%20Access%20Request&body=Dear%20Dr.%20Etter,%0A%0AI%20am%20writing%20to%20request%20access%20to%20the%20'Pediatric%20Lung%20US%20Images'.%0A%0ASincerely,%0A",
             "dataset_size": ""
+        },
+	{
+            "resource_title": "The University of California San Francisco Adult Longitudinal Post-Treatment Diffuse Glioma (UCSF-ALPTDG) MRI Dataset",
+            "resource_type": "Dataset",
+            "first_author": "Fields",
+            "published_year": "2024-06",
+            "sponsor": ["UCSF"],
+            "content_codes": ["NR","MR"],
+            "num_images": "",
+            "num_patients": 298,
+            "paper_link": "https://doi.org/10.1148/ryai.230182",
+            "dataset_link": "https://imagingdatasets.ucsf.edu/dataset/2",
+            "dataset_size": 29
         }
     ]
 }
