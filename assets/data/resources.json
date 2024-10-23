@@ -233,6 +233,32 @@
             "paper_link": "https://doi.org/10.1148/ryai.230182",
             "dataset_link": "https://imagingdatasets.ucsf.edu/dataset/2",
             "dataset_size": 29
-        }
+        },
+	{
+            "resource_title": "The RSNA Abdominal Traumatic Injury CT (RATIC) Dataset",
+            "resource_type": "Dataset",
+            "first_author": "Rudie",
+            "published_year": "2024-10",
+            "sponsor": ["RSNA"],
+            "content_codes": ["CT"],
+            "num_images": "",
+            "num_patients": 4274,
+            "paper_link": "https://doi.org/10.1148/ryai.240101",
+            "dataset_link": "https://www.kaggle.com/competitions/rsna-2023-abdominal-trauma-detection",
+            "dataset_size": 460
+        },
+	{
+            "resource_title": "WAW-TACE: A Hepatocellular Carcinoma Multiphase CT Dataset with Segmentations, Radiomics Features, and Clinical Data",
+            "resource_type": "Dataset",
+            "first_author": "Bartnik",
+            "published_year": "2024-10",
+            "sponsor": ["Medical University of Warsaw"],
+            "content_codes": ["CT"],
+            "num_images": "",
+            "num_patients": 233,
+            "paper_link": "https://doi.org/10.1148/ryai.240296",
+            "dataset_link":  "https://zenodo.org/records/12741586",
+            "dataset_size": ""
+        },
     ]
 }
