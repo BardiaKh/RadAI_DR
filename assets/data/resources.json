@@ -265,7 +265,7 @@
             "resource_type": "Dataset",
             "first_author": "Solomon",
             "published_year": "2025-01",
-            "sponsor": ["Cornell University", "NYU Grossman School of Medicine"],
+            "sponsor": ["Cornell University", "New York University"],
             "content_codes": ["BR", "MR"],
             "num_images": "",
             "num_patients": 284,
