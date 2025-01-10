@@ -259,6 +259,19 @@
             "paper_link": "https://doi.org/10.1148/ryai.240296",
             "dataset_link":  "https://zenodo.org/records/12741586",
             "dataset_size": ""
+        },
+	{
+            "resource_title": "FastMRI Breast: A Publicly Available Radial K-space Dataset of Breast Dynamic Contrast-enhanced MRI",
+            "resource_type": "Dataset",
+            "first_author": "Solomon",
+            "published_year": "2025-01",
+            "sponsor": ["Cornell University", "NYU Grossman School of Medicine"],
+            "content_codes": ["BR", "MR"],
+            "num_images": "",
+            "num_patients": 284,
+            "paper_link": "https://doi.org/10.1148/ryai.240345",
+            "dataset_link":  "https://fastmri.med.nyu.edu/",
+            "dataset_size": "1401"
         }
     ]
 }
