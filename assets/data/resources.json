@@ -272,6 +272,19 @@
             "paper_link": "https://doi.org/10.1148/ryai.240345",
             "dataset_link":  "https://fastmri.med.nyu.edu/",
             "dataset_size": "1401"
+        },
+	{
+            "resource_title": "CMRxRecon2024: A Multimodality, Multiview k-Space Dataset Boosting Universal Machine Learning for Accelerated Cardiac MRI",
+            "resource_type": "Dataset",
+            "first_author": "Wang and Wang",
+            "published_year": "2025-01",
+            "sponsor": ["International Human Phenome Institute, Shanghai, China"],
+            "content_codes": ["CA", "MR"],
+            "num_images": "330",
+            "num_patients": 330,
+            "paper_link": "https://doi.org/10.1148/ryai.240443",
+            "dataset_link":  "https://www.synapse.org/#!Synapse:syn54951257/wiki/627141",
+            "dataset_size": "800"
         }
     ]
 }
