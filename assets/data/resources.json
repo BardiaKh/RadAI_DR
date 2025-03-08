@@ -285,6 +285,19 @@
             "paper_link": "https://doi.org/10.1148/ryai.240443",
             "dataset_link":  "https://www.synapse.org/#!Synapse:syn54951257/wiki/627141",
             "dataset_size": "800"
+        },
+	{
+            "resource_title": "AutoQC: A Pipeline for Automated Quality Control of Chest Radiographs",
+            "resource_type": "Tool",
+            "first_author": "Selby",
+            "published_year": "2025-03",
+            "sponsor": ["University of Cambridge, Cambridge, UK"],
+            "content_codes": ["CH","XR"],
+            "num_images": "N/A",
+            "num_patients": 0,
+            "paper_link": "https://doi.org/10.1148/ryai.240003",
+            "dataset_link":  "https://gitlab.developers.cam.ac.uk/maths/cia/covid-19-projects/autoqc",
+            "dataset_size": ""
         }
     ]
 }
